@@ -1,7 +1,7 @@
 <?php
-$serverName = "DESKTOP-6450ION";
+$serverName = "mssql5.gear.host";
 
-$connectionInfo = array( "Database"=>"coll");
+$connectionInfo = array( "Database"=>"coll","UID"="coll","PWD"="@shboy123");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
 if( $conn ) {
